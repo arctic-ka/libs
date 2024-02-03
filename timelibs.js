@@ -1,6 +1,6 @@
 
 
-function goUp(n = 1, stop = false) {
+function goUp(n = 1, stop = false, stopId = 'stop', clearId='clear', var inp = 'demo2') {
 var upper = setInterval(myTimer, 1000);
 var i = localStorage.n || n;
 var j = 0;
